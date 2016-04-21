@@ -1,3 +1,1 @@
-###Repositório para domínios resolvidos no site HackerHank
-
-- [x] Resolver no mínimo 1 exercício por dia, qualquer domínio.
+Repositório para códigos resolvidos dos domínios no site [Hacker Rank](www.hackerrank.com)
