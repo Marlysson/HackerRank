@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-arquivo = open("matriz.txt")
+arquivo = open("matriz_diagonal_diference.txt")
 matriz = []
 
 for linha in arquivo:
