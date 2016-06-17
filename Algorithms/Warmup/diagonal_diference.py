@@ -7,30 +7,32 @@ for linha in arquivo:
 	vetor = linha.strip().split(" ")
 	matriz.append( map(int,vetor) )
 
+    # Percorrer da esquerda para a direita , somando os índices
+
 def get_princ(matriz):
+    indice_vetor = 0
+    sum_princ = 0
 
-	cont = 0
-	sum_princ = 0
-
-	for vetor in matriz:
-		sum_princ += vetor[cont]
-		cont += 1
-
-	return sum_princ
+    # Percorrer da esquerda para a direita , somando os índices
+    # INICIO -> FINAL
+    for vetor in matriz:
+        sum_princ += vetor[indice_vetor]
+        indice_vetor += 1
+        
+    return sum_princ
 
 
 def get_sec(matriz):
-	pos = len(matriz) - 1
-	index_vetor = 0
-	sum_sec = 0
-
-	while index_vetor < len(matriz):
-		sum_sec += matriz[index_vetor][pos]
-	
-		pos -= 1
-		index_vetor += 1
-
-	return sum_sec
+    indice_vetor = len(matriz[0]) - 1 # lenght of a vector
+    sum_sec = 0
+    
+    # Percorrer da direita para a esquerda , substraindo os indices , até chegar no inicio.
+    # FINAL -> INICIO
+    for vetor in matriz:
+        sum_sec += vetor[indice_vetor]
+        indice_vetor -= 1
+        
+    return sum_sec
 
 print("Soma diagonal principal:  {}".format(get_princ(matriz)))
 print("Soma diagonal Secundária: {}".format(get_sec(matriz)))
@@ -38,3 +40,4 @@ print("Soma diagonal Secundária: {}".format(get_sec(matriz)))
 resultado = abs( get_princ(matriz) - get_sec(matriz))
 
 print ("Diferença absoluta: {}".format(resultado))
+
