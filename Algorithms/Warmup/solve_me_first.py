@@ -1,11 +1,13 @@
 # -*- cofing:utf-8 -*-
 
 def solveMeFirst(a,b):
-  return a + b
+	tipos = (int,float)
 
-num1 = int(input())
-num2 = int(input())
+	if all( [isinstance(a,tipos) , isinstance(b,tipos)] ):
+		return a+b
+	else:
+		raise ValueError("Ha valores incorretos")
 
-res = solveMeFirst(num1,num2)
+res = solveMeFirst(1,"a")
 
-print (res)
+print(res)
