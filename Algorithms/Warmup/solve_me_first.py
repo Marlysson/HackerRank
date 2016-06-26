@@ -8,6 +8,6 @@ def solveMeFirst(a,b):
 	else:
 		raise ValueError("Ha valores incorretos")
 
-res = solveMeFirst(1,"a")
+res = solveMeFirst(1,3)
 
-print(res)
+# print(res)
