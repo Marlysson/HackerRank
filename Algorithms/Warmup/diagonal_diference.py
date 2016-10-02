@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+#Challenge : https://www.hackerrank.com/challenges/diagonal-difference
+
 arquivo = open("matriz_diagonal_diference.txt")
 matriz = []
 

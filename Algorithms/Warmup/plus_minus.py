@@ -1,5 +1,7 @@
 # -*- coding : utf8 -*-
 
+# Challenge : https://www.hackerrank.com/challenges/plus-minus
+
 string_entrada = "-4 3 -9 0 4 1"
 dados = {"positivos":0 , "negativos":0, "neutros":0}
 

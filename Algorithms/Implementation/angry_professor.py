@@ -1,4 +1,6 @@
-# # -*- coding:utf8 -*-
+# -*- coding:utf8 -*-
+
+#Challenge : https://www.hackerrank.com/challenges/angry-professor
 
 def verificar_aula_cancelada(dados_da_classe,horarios_alunos):
 	quant_minima = dados_da_classe[1]

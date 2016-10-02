@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 
+#Challenge : https://www.hackerrank.com/challenges/simple-array-sum
+
 #Soma normal,incrementando
 def soma1(nums):
 	soma = 0
@@ -20,9 +22,9 @@ def soma2(nums):
 def soma3(nums):
 	return sum([int(i) for i in nums.split(' ')])
 
-n = 4
-nums = "1 2 3 4 5"
+n = str(input())
+nums = str(input())
 
-# print (soma1(nums))
+print (soma1(nums))
 # print (soma2(nums))
 # print (soma3(nums))

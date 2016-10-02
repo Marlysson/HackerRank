@@ -1,5 +1,7 @@
 # -*- cofing:utf-8 -*-
 
+# Challenge : https://www.hackerrank.com/challenges/solve-me-first
+
 def solveMeFirst(a,b):
 	tipos = (int,float)
 
@@ -10,4 +12,4 @@ def solveMeFirst(a,b):
 
 res = solveMeFirst(1,3)
 
-# print(res)
+print(res)

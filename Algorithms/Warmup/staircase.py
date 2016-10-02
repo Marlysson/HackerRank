@@ -1,5 +1,7 @@
 # -*- coding : utf8 -*-
 
+# Challenge : https://www.hackerrank.com/challenges/staircase
+
 """
      #
     ##
